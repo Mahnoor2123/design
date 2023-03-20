@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-custom{
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-custom .container h3{
+    color:#1264fa;
+}
+.navbar-custom nav ul {
+    margin-right: 280px;
+}
+.navbar-custom nav .navbar-brand {
+  color:#1264fa;
+  font-weight: 700;
+}
+.navbar-custom nav ul li {
+    margin-right: 15px;
+}
+.navbar-custom nav form .btn {
+    border: 1px solid rgba(128, 128, 128, 0.402);
+    border-radius: 16px;
+    color: #1264fa;
+    background:transparent;
+}
+/* Hero section styling */
+
+.hero .container h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 200px;
+}
+.hero .container p{
+    margin-top: 20px;
+  text-align: left;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.hero .container button{
+   color: #fff;
+   background-color: #1264fa;
+   padding: 10px 30px;
+   border-radius: 25px;
+   font-size: 14px;
+   border: none;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.hero .container .card{
+   margin-top: 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+ 
+ }
+ .hero .container .card img{
+   height: 70px;
+   width: 70px;
+   /* margin left applied on img */
+   margin-left: 20px;
+  }
+ .hero .container .card .card-title{
+    font-weight: 650;
+    font-size: 16px;
+     font-family: 'Montserrat', sans-serif;
+  }
+  .hero .container .card p{
+    color: rgba(128, 128, 128, 0.6);
+    font-size: 14px;
+     font-family: 'Montserrat', sans-serif;
+     margin-top: -3px;
+  }
+  .hero .container .hero-img{
+    margin-top: 100px;
+  
+  }
+ 
+  .hero .container .img-content{
+   color: #fff;
+  padding: 20px 40px;
+  transform: translate(-70px ,-120px);
+   background-color: #000839;
+  }
+  /* Ratings styling */
+  .Ratings .container .rating-content{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .Ratings .container .rating-content h1{
+  font-weight: 700;
+  }
+  .Ratings .container .rating-content .content{
+    color: rgba(128, 128, 128, 0.734);
+    }
+    /* Working */
+
+    .Working .container {
+        margin-top: 120px;
+       margin-bottom: 130px;
+        font-family: 'Montserrat', sans-serif;
+     
+    }
+    .Working .container .working-heading {
+      text-align: center;
+     
+    }
+    .Working .container  small{
+       color: grey;
+       font-weight: 600;
+       text-align: center;
+        font-family: 'Montserrat', sans-serif;
+     
+    }
+    .Working .container  h2{
+        text-align: center;
+        font-weight: 700;
+         font-family: 'Montserrat', sans-serif;
+      
+     }
+    .Working .container .card{
+       
+       margin-top: 70px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+     
+    }
+    .Working .container .card h5{
+      font-size: 16px;
+      font-weight: 700;
+     
+    }
+    .Working .container .card img{
+        height: 70px;
+        width: 70px;
+        /* margin left applied on img */
+        margin-left: 20px;
+       }
+       /* Services section */
+       .Services{
+        background-color: rgba(128, 128, 128, 0.062);
+       }
+       .Services .container {
+     margin-top: 60px;
+     padding: 80px;
+       }
+       .Services .container small{
+        color: grey;
+        font-weight: 600;
+       
+         font-family: 'Montserrat', sans-serif;
+       }
+       .Services .container h2{
+       
+        font-weight: 700;
+       
+         font-family: 'Montserrat', sans-serif;
+       }
+       .Services .container  .service-content{
+       margin-block: 30px;
+        font-size: 17px;
+       
+         font-family: 'Montserrat', sans-serif;
+       }
+       .Services .container  p{
+         font-family: 'Montserrat', sans-serif;
+         margin-top: -10px;
+        }
+       .Services .container  button{
+        margin-top: 30px;
+        color: #fff;
+   background-color: #1264fa;
+   padding: 10px 30px;
+   border-radius: 25px;
+   font-size: 14px;
+   border: none;
+    font-family: 'Montserrat', sans-serif;
+        }
+        .Services .container img {
+          transform: translate(0px, -130px);
+              }
+/* carousel */
+.carousel .container {
+text-align: center;
+}
+.carousel .container img {
+   height: 70px;
+   width: 70px;
+   border-radius: 35px;
+   margin-top: 100px;
+    }
+    .carousel .container p {
+      
+        margin-block:20px;
+         }
+         .carousel .container h5 {
+            font-size: 16px;
+            font-weight: 600;
+             }
+             /* Blogs styling */
+             .Blog  {
+          
+                background-color: rgba(128, 128, 128, 0.062);
+             }
+             .Blog .container-fluid .head{
+                text-align: center;
+                padding-top: 100px;
+                margin-top: 100px;
+             }
+             .Blog .container-fluid .blog-cards{
+                /* margin-left: 100px; */
+             }
+             .Blog .container-fluid .blog-cards .card {
+             
+             margin-block: 50px;
+             border-top-right-radius: 16px;
+             border-top-left-radius: 16px;
+             border-bottom-right-radius: 16px;
+            
+
+ }
+             .Blog .container-fluid .card h6{
+              color: grey;
+              font-size: 12px;
+              font-weight: 700;
+             }
+             .Blog .container-fluid .card h5{
+            
+                font-size: 16px;
+                font-weight: 700;
+               }
+               .Blog .container-fluid .card p{
+            
+               color: rgba(128, 128, 128, 0.837);
+               }
+               /* Footer styling */
+               .footer{
+                margin-top: 100px;
+                /* display: inline-block; */
+               }
+               .footer h5{
+                font-size: 16px;
+                font-weight: 700;
+                margin-block: 20px ;
+               }
+               .footer i{
+             background-color: rgba(128, 128, 128, 0.121);
+             padding: 15px 20px;
+             border-radius: 10px;
+               }
+               /* .footer::after{
+                  content: "";
+            display: block;
+            height: 2px;
+            width: 1200px;
+            background-color: rgba(128, 128, 128, 0.052);
+            margin-top: 80px;
+            margin-bottom: 10px;
+            margin-left: 30px;
+               } */
+                .footer-end{
+           text-align: center;
+           margin-top: 40px;
+             }
